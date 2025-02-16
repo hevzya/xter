@@ -4,8 +4,8 @@ from telegram import Bot
 from telegram.error import TelegramError
 
 # Замініть на ваш Telegram Bot Token та Chat ID
-TELEGRAM_BOT_TOKEN = '8119807552:AAFReHUu4iHVyLdN2rtXlevRbnmFO6rdp4A'
-CHAT_ID = '@xter_price_alert'
+TELEGRAM_BOT_TOKEN = 'bot_token'
+CHAT_ID = '@'
 
 # Bitget API URL для ф'ючерсів
 BITGET_API_URL = 'https://api.bitget.com/api/v2/mix/market/symbol-price'
